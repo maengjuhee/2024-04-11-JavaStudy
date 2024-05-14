@@ -57,7 +57,7 @@ public class 문제_2 {
         {
         	System.out.println("가을");
         }
-        else
+        else							
         {
         	System.out.println("존재하지 않는 달입니다");
         }
