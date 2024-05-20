@@ -7,6 +7,7 @@ public class ControllerPanel extends JPanel{
 	public CardLayout card=new CardLayout();
 	public HomePanel hp=new HomePanel();
 	public FindPanel fp=new FindPanel();
+	
 	public ControllerPanel()
 	{
 		setLayout(card);

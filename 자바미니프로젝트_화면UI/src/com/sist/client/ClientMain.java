@@ -24,7 +24,7 @@ public class ClientMain extends JFrame implements ActionListener{
     	
     	mp.b1.addActionListener(this); // b1 버튼을 클릭하면 => actionPerformed를 호출
     	mp.b2.addActionListener(this);
-    	mp.b6.addActionListener(this);
+    	//mp.b6.addActionListener(this);
     }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -58,7 +58,7 @@ public class Login extends JFrame{
 	public Login()
 	{
 		setTitle("로그인");
-	     // 초기화
+	     // 초기화 
 		la1=new JLabel("아이디");
 		la2=new JLabel("비밀번호");
 		
