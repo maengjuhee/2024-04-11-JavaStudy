@@ -53,13 +53,13 @@ public class 예외처리_3 {
            // => 에러 발생 의심 부분 1
            int n2=Integer.parseInt(num2); // 문자열을 정수로 변환
            // => 에러 발생 의심부분 2
-           int n3=n1/n2; // if처리가 편하다
+           int n3=n1/n2; // if 처리가 편하다
            // => 에러 발생 의심부분 3
            System.out.println("n1="+n1);
            System.out.println("n2="+n2);
            System.out.println("n3="+n3);
            
-           // num1, num2, n1, n2, n3 => try블록 안에서만 사용 가능 => 블록변수 / 지역변수
+           // num1, num2, n1, n2, n3 => try 블록 안에서만 사용 가능 => 블록변수 / 지역변수
            // ==> {} 안에서만 사용이 가능
            
 		}/*catch(NumberFormatException e) // 정수변환이 안되는 경우에만 처리

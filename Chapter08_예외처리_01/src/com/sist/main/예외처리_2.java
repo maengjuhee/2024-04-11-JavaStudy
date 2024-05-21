@@ -31,7 +31,7 @@ public class 예외처리_2 {
 			System.out.println("문장 4");
 			System.out.println("문장 5"); // 여기까지 수행하고 catch를 건너뛴다 (에러가 없으니까)
 			
-	    }catch(RuntimeException e) //=> wkf ahfmrpTdmaus 
+	    }catch(RuntimeException e) // => 잘 모르겠으면 이거 써
 		{
 			 System.out.println("에러발생 => 복구"); // 에러가 발생시에만 수행
 		}
