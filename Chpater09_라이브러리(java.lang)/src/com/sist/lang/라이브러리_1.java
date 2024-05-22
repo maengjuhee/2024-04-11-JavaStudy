@@ -6,7 +6,7 @@ import java.util.Arrays;
  *    라이브러리 => 자바에서 지원하는 클래스
  *               => J2SE / J2EE
  *                  |기본    | 웹에서 사용하는 라이브러리 => servlet-api => JSP
- *               외부에서 지원하는 클래스 => Jsoup / SimpleJSON / CSV / Spring
+ *               외부에서 지원하는 클래스 => Jsoup / SimpleJSON / CVS / Spring
  *     => java.lang => import를 생략할 수 있다
  *        = Object
  *        = String
