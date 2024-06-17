@@ -2,7 +2,7 @@ package com.sist.client;
 import java.util.*;
 import javax.swing.*;
 import java.awt.*;
-public class JoinPanel extends JPanel{
+public class JoinPanel extends JFrame{
     JLabel tLa,iLa,pLa1,nLa,sLa,bLa,pLa,aLa1,aLa2,telLa,cLa,eLa;
     JTextField idtf,nametf,birthtf,posttf,addrtf1,addrtf2,teltf,emailtf;
     JTextArea cta;
@@ -60,7 +60,7 @@ public class JoinPanel extends JPanel{
     	rb2.setBounds(340, 185, 70, 30);
     	add(rb2);
     	
-    	ButtonGroup bg=new ButtonGroup(); // 라디오 버튼은 그룹으로 꼭 묶어줘야 해(그래야 하나만 선택 돼)
+    	ButtonGroup bg=new ButtonGroup();
     	bg.add(rb1); bg.add(rb2);
     	
     	rb1.setSelected(true);
@@ -142,5 +142,7 @@ public class JoinPanel extends JPanel{
     	
     	p.setBounds(150, 610, 565, 35);
     	add(p);
+    	
+    	setSize(960, 700);
     }
 }
